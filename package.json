@@ -1,0 +1,14 @@
+{
+  "name": "api-os",
+  "version": "1.0.0",
+  "description": "gives you os details through api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shamaiel-wnai",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
