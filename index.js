@@ -19,6 +19,11 @@ function getOSInfo() {
     };
 }
 
+app.get('/', (req, res) => {
+    
+    res.json("Hello i am Khan");
+});
+
 app.get('/api/osinfo', (req, res) => {
     const osInfo = getOSInfo();
     res.json(osInfo);
